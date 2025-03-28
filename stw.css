@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(157, 66, 66),rgb(106, 98, 207),rgb(200, 60, 9))
+}
+#stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#stopwatch  h1{
+    font-size: 8rem;
+    font-family: sans-serif;
+    margin: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    border: 15px solid red;
+    border-radius: 350px;
+    box-shadow: 0 0 15 10 20 rebeccapurple;
+}
+section #timer {
+    font-size: 4rem;
+    margin: 20px;
+}
+
+section button {
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+}
+
+button {
+    margin: 10px;
+    color: #fff;
+    width: 6rem;
+    cursor: pointer;
+
+}
+
+#start-button {
+    background: #71e027;
+}
+
+#stop-button {
+    background: crimson;
+}
+
+#reset-button {
+    background: darkblue;
+}
